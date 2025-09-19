@@ -20,6 +20,7 @@ public class CharArray {
         System.out.println("Lowercase letters: " + lowercase);
         System.out.println("Digits: " + digits);
         System.out.println("Special characters: " + special);
+        System.out.println("Special characters: " + special);
 
 	}
 

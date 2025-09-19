@@ -8,12 +8,9 @@ class Circle extends Shape{
 		System.out.println("Draw a circle");
 	}
 }
-
 public class AbstarctionBasic {
 	public static void main(String[] args) {
 		Shape c = new Circle();
 		c.draw();
-
 	}
-
 }
