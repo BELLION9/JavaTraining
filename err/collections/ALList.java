@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class ALList {
     public static void main(String[] args) {
-        // ArrayList
+        //ArrayList
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("Apple");
         arrayList.add("Banana");
@@ -14,7 +14,7 @@ public class ALList {
         arrayList.remove("Banana");
         System.out.println("ArrayList after removal: " + arrayList);
 
-        // LinkedList 
+        //LinkedList 
         LinkedList<String> linkedList = new LinkedList<>();
         linkedList.add("Dog");
         linkedList.add("Cat");
