@@ -8,17 +8,13 @@ public class BankInfo {
 		acccount++;
 	}
 	void showDetails(){
-		System.out.println("Bank Holder Name:" +accountHolder);
-		
+		System.out.println("Bank Holder Name:" +accountHolder);	
 	}
-	
 	public static void main(String[] args) {
 		BankInfo p= new BankInfo("Priyanshu");
 		BankInfo n= new BankInfo("Nikhil");
 		p.showDetails();
 		n.showDetails();
 		System.out.println("Total Acc:" +acccount+ " Acc created");
-
 	}
-
 }

@@ -18,5 +18,6 @@ public class LSort {
 
         Collections.sort(numbers); // sort the list
         System.out.println("Sorted LinkedList: " + numbers);
+        sc.close();
     }
 }
